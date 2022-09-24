@@ -9,12 +9,15 @@ package TrabajoClase_2;
  * @author rjesu
  */
 public class Main {
+    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] arr={12,34,64,2,3};
+        System.out.println(Recursion.factorial(3));
+        System.out.println(Recursion.encontrarMax(arr, 1,arr[0]));
     }
     
 }
