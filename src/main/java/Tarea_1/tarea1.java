@@ -9,7 +9,7 @@ package Tarea_1;
  * @author VIBEXZ
  */
 //import static TAREAS.tarea1.EJE2.anagrama;
-import static TAREAS.tarea1.EJER4.recurSum;
+import static Tarea_1.EJER4.recurSum;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
 
@@ -21,7 +21,7 @@ public class tarea1 {
     public static void main(String[] args) {
 
         //--------------------------------------------------------------EJERCICIO 1---------------------------------------
-        System.out.println(EJER1.invertir(12336));
+        //System.out.println(EJER1.invertir(12336));
         //--------------------------------------------------------------EJERCICIO 2----------------------------------------
         /*
         
