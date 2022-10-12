@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package Tarea_1;
+package Tareas;
 
 /**
  *
  * @author VIBEXZ
  */
 //import static TAREAS.tarea1.EJE2.anagrama;
-import static Tarea_1.EJER4.recurSum;
+import static Tareas.EJER4.recurSum;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
 
@@ -19,7 +19,8 @@ public class tarea1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+        //--------------------------------------------------------------TAREA 1------------------------------------------
+        
         //--------------------------------------------------------------EJERCICIO 1---------------------------------------
         //System.out.println(EJER1.invertir(12336));
         //--------------------------------------------------------------EJERCICIO 2----------------------------------------

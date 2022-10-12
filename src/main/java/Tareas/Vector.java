@@ -1,17 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Tarea_1;
+package Tareas;
 
 /**
- * 
- * 
+ *
+ * @author rjesu
  */
-public class EJER3 {
-    
-    
-     public static int []devolver(int [] v, int cont){
+public class Vector {
+        public static int []devolver(int [] v, int cont){
         if(cont<=v.length-1){
             System.out.println("Dar número ");
             v[cont]= new java.util.Scanner(System.in).nextInt();
@@ -38,10 +32,4 @@ public class EJER3 {
         return may;
         
     }
-    
-    
-    
-    
-    
-    
 }
