@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         
-       /* stack<Integer> Pila = new stack<Integer>();
+      /*stack<Integer> Pila = new stack<Integer>();
         Pila.push(1);
         Pila.push(2);
         Pila.push(4);
@@ -22,15 +22,15 @@ public class Main {
         System.out.println(Pila.pop());
         System.out.println(Pila.pop());*/
        
-       //queue<Integer> Cola = new queue <Integer>();
-       //Cola.enqueue(1);
-       //Cola.enqueue(2);
-       //Cola.enqueue(4);
-        //System.out.println(Cola.dequeue());
-       // System.out.println(Cola.dequeue().getValue());
+      /* queue<Integer> Cola = new queue <Integer>();
+       Cola.enqueue(1);
+       Cola.enqueue(2);
+       Cola.enqueue(4);
+        System.out.println(Cola.dequeue());
+        System.out.println(Cola.dequeue().getValue());*/
        
        
-       queue<Integer> prueba = new queue <Integer>();
+       /*queue<Integer> prueba = new queue <Integer>();
        
        for (int i=0;i<101;i++){
            prueba.enqueue(i);
@@ -43,6 +43,8 @@ public class Main {
        
         for (int i=0;i<100;i++){
            prueba2.enqueue(i);
-       }
+       }*/
+       
+       
     }
 }

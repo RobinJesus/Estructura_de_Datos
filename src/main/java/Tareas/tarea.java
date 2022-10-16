@@ -8,12 +8,13 @@ package Tareas;
  *
  * @author VIBEXZ
  */
-//import static TAREAS.tarea1.EJE2.anagrama;
+//import static TAREAS.tarea.EJE2.anagrama;
 import static Tareas.EJER4.recurSum;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
+import tarea2.cola;
 
-public class tarea1 {
+public class tarea {
 
     /**
      * @param args the command line arguments
@@ -26,7 +27,6 @@ public class tarea1 {
         //--------------------------------------------------------------EJERCICIO 2----------------------------------------
         /*
         
-        //Solo falta hacerle el bucle 
         
         String palabra = "hola";
         System.out.println(EJE2.eje2(palabra));
@@ -61,6 +61,39 @@ public class tarea1 {
         System.out.println(EJE5.tabla(10, d));
 
          */
-    }
+        //--------------------------------------------------------------TAREA 2------------------------------------------
+        
+        //--------------------------------------------------------------EJERCICIO 1---------------------------------------
+        
+        
+         //-------------------------------------------------------------EJERCICIO 2----------------------------------------
+         
+         
+          //------------------------------------------------------------EJERCICIO 3----------------------------------------
+         Fila<Integer> Fila = new Fila<Integer>();
+          
+          Fila.ingresoPalco1(16);
+          Fila.ingresoPalco2(17);
+          Fila.ingresoPalco3(18);
+          Fila.ingresoSombra(18);
+          Fila.ingresoSol1(604170273);
+          Fila.ingresoSol2(604560275);
+          
+         for (int i=0;i<17;i++){
+             Fila.ingresoPalco1(i);
+             System.out.println(Fila.ingresoPalco1(i));
+         }
 
+          }
+           
+        /* cola cola1 = new cola();
+         cola1.ingresoPersona();
+         cola1.ingresoPersona();
+         cola1.ingresoPersona();
+         cola1.Mostrar();*/
+        
+        
+        
+        
+         
 }
