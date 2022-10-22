@@ -7,6 +7,7 @@ package TrabajoClase_3;
 /**
  *
  * @author rjesu
+ * @param <T>
  */
 public class queue< T>{
     
